@@ -1,0 +1,105 @@
+@media screen and (max-width : 1024px) {
+    .wrapper {
+        padding: 0 20px 0 20px;
+    }
+
+    .header__nav {
+        width: 1024px;
+        height: 40px;
+        padding: 0 20px 0 20px;
+    }
+    
+    nav {
+        width: 800px;
+        margin: 0;
+        gap: 18px;
+    }
+
+    .nav__contacts {
+        width: 40%;
+        gap: 12px;
+        margin-left: 11px;
+    }
+
+    .nav__contacts_phone {
+        font-size: 10px;
+    }
+
+    .nav__contacts_email {
+        font-size: 12px;
+    }
+
+    .nav__container {
+        font-size: 12px;
+    }
+
+    main {
+        height: 750px;
+    }
+
+    .main__information {
+        gap: 20px;
+    }
+
+    .main__information_search {
+        width: 259px;
+        height: 50px;
+        margin-right: 39px;
+    }
+
+    .main__buy {
+        width: 232px;
+        height: 53px;
+        padding: 14px 0 14px 14px;
+    }
+
+    .information_search  {
+        width: 259px;
+        height: 50px;
+    }
+
+    .information_logo {
+       right: 15px;
+    }
+
+    .main__communication {
+        gap: 13px;
+    }
+
+    .main__basic {
+        height: 270px;
+    }
+
+    .radiators_img {
+        width: 100%;
+    }
+
+    .main__radiators {
+        margin-top: 0;
+    }
+
+    .radiators_type {
+        padding-left: 20px;
+    }
+
+    .type_txt {
+        font-size: 12px;
+    }
+
+    .type_img {
+        width: 120px;
+        height: 100px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .none_big {
+        display: none;
+    }
+
+    .none_laptop {
+        display: none;
+    }
+}

@@ -1,0 +1,72 @@
+@media screen and (max-width: 320px) {
+    .wrapper {
+        padding-bottom: 0;
+    }
+
+    .main__basic {
+        height: 820px;
+    }
+    
+    .menu_logo {
+        width: 121px;
+        height: 43px;
+    }
+
+    .menu_img {
+        width: 58px;
+        height: 46px;
+    }
+
+    .menu_phone_num {
+        font-size: 13px;
+    }
+
+    .main__mob {
+        width: 100%;
+        height: 345px;
+    }
+
+    .main__mob_header {
+        font-size: 28px;
+    }
+
+    .radiators_type{
+        padding-left: 20px;
+    }
+    
+    .type_txt{
+        font-size: 14px;
+        width: 150px;
+    }
+
+    .mob__search {
+        width: 295px;
+        margin: 0;
+    }
+
+    .mob__search_input {
+        width: 275px;
+    }
+    
+    .mob__logo {
+        bottom: 52px;
+        right: 30px;
+    }
+
+    .mob__nav_block {
+        width: 220px;
+    }
+
+    .nav__btn_call {
+        width: 205px;
+    }
+
+    .catalog__nav {
+        width: 315px;
+    }
+
+    .catalog__nav_block {
+        width: 290px;
+        height: 160px;
+    }
+}

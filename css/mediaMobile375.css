@@ -1,0 +1,21 @@
+@media screen and (max-width : 375px) {
+    .mob__header_menu {
+        gap: 0;
+    }
+
+    .mob__search {
+        margin: 0;
+    }
+
+    .main__basic_radiators  {
+        padding: 0;
+    }
+  
+    .main__mob {
+        padding: 0;
+    }
+
+    .catalog__nav_block  {
+        width: 330px;
+    }
+}

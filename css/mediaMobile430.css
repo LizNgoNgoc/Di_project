@@ -1,0 +1,334 @@
+@media screen and (max-width : 430px) {
+    .wrapper {
+        padding: 0 16px;
+        width: 97vw;
+        margin: auto;
+    }
+
+    .wrapper__shadow {
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 800;
+        left: 0;
+        top: 0;
+
+    }
+
+    main {
+        height: 2310px;
+    }
+
+    .mob__header {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 19px 0 0 0;
+    }
+
+    .mob__header_menu {
+        /* width: 390px; */
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .menu_phone {
+        width: 122px;
+    }
+
+    .menu_logo {
+        width: 131px;
+        height: 48px;
+    }
+
+    .menu_phone_num {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #2B2A29;
+        text-decoration: none;
+    }
+
+    .menu_img {
+        width: 61px;
+        height: 48px;
+    }
+    
+    .main__radiators {
+        width: 100%;
+        padding: 10px 0;
+        margin: auto;
+        
+    }
+
+    .main__basic {
+        height: 935px;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .main__basic_radiators {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .radiatirs_mobImg {
+        width: 100%;
+    }
+    
+    .info_img {
+        width: 100%;
+      
+
+    }
+
+    .main__radiators_types {
+        flex-direction: column;
+        height: 600px;
+        /* width: 287px; */
+        gap: 20px;
+    }
+
+    .radiators_type {
+        width: 100%;
+        padding-left: 30px;
+        height: 140px;
+        position: relative;
+
+    }
+
+    .main__mob {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 43px;
+    }
+
+    .main__mob_header {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #2B2A29;
+        text-align: center;
+    }
+    
+    .main__mob_txt {
+        height: 85px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+    .type_txt{
+        font-size: 16px;
+        width: 184px;
+    }
+    
+    .main__mob_btn {
+        width: 140px;
+        height: 45px;
+        padding: 12px 24px 11px 30px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #005DB4;
+        border: 1px solid #005DB4;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .main__basic_info  {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .type_img {
+        height: 122px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+    }
+
+    .mob__search {
+        width: 343px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        margin: auto 23px;
+        gap: 30px;
+    }
+
+    .mob__search_input {
+        width: 343px;
+        height: 48px;
+        border: 1px solid #EAEAEA;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 24px;
+        z-index: 999;
+    }
+
+    .mob__logo {
+        position: absolute;
+        top: 0;
+        bottom: 50px;
+        margin: auto;
+        right: 15px;
+    }
+
+    .mob__btn_close {
+        background-color: transparent;
+        border: 0;
+        z-index: 999;
+    }
+
+    .close_btn {
+        width: 50px;
+        height: 50px;
+      
+    }
+
+    .mob__catalog {
+        width: 343px;
+        height: 169px;
+        background-color: white;
+    }
+
+    .mob__nav {
+        width: 320px;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        position: fixed;
+        display: flex;
+        z-index: 999;
+        
+    }
+
+    .mob__nav_block {
+        width: 253px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+    }
+
+    .nav_block {
+        width: 100%;
+        height: 364px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 30px;
+    }
+
+    .nav_block_phone {
+        width: 100%;
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .block_info {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-decoration: none;
+        color: #2B2A29;
+    }
+
+    .block_info_mail {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #005DB4;
+    }
+
+    .nav__btn_call {
+        width: 238px;
+        height: 41px;
+        border: 1px solid #005DB4;
+        border-radius: 5px;
+    }
+
+    .nav__btn_close {
+        position: absolute;
+        top: 17px;
+        right: -10px;
+        border: 0;
+        background-color: transparent;
+        width: 50px;
+        height: 50px;
+    }
+
+    .catalog__nav {
+        width: 343px;
+        height: 169px;
+        position: fixed;
+        display: flex;
+        z-index: 999;
+    }
+
+    .catalog__nav_block {
+        width: 343px;
+        height: 169px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5px;
+        position: fixed;
+        gap: 30px;
+        padding: 13px;
+     
+    }
+
+    .catalog__nav_dec {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-decoration: none;
+        color: #2B2A29;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .catalog__index{
+        z-index: 800;
+    }
+
+    .mob__none {
+        display: none;
+    }
+
+    .none_mob {
+        display: none;
+    }
+
+    .none_big {
+        display: flex;
+    }
+
+}
